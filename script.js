@@ -8,7 +8,7 @@
     //game states
     var game = {
         status: '',
-        deckId: 'omq64dx88ud3',
+        deckId: '',
         remaining: '',
         result: '',
         player: '',
@@ -66,6 +66,7 @@
         }).then(function(data) {
             if (dealer.deck === '') {
                 dealer.deck = data;
+                game.deckId = data.deckId;
             } else {
                 dealer.draw = data;
             }
@@ -151,4 +152,4 @@
     init();
 
 
-}());
+})();
