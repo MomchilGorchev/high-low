@@ -1,0 +1,30 @@
+/*base*/
+html {
+	font-family: 'Cardo', serif;
+}
+/*details*/
+.game {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #E0E0E0;
+	text-align: center;
+}
+.cards {
+	height: 350px;
+}
+	.cards__img {
+		width: 150px;
+		height: 208px;
+	}
+	.cards__text {
+
+	}
+.controls {
+	border-top: 1px solid #E0E0E0;
+	padding: 20px 0 0;
+}
+	.controls__btn {
+		display: none;
+		font-family: 'Cardo', serif;
+	}

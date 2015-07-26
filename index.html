@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Higher or Lower?</title>
+	<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="game">
+		<div id="cards" class="cards">
+			<img id="player" class="cards__img" src="blank.jpg">
+			<p id="choice" class="cards__text"></p>
+			<p id="result" class="cards__text"></p>
+			<p id="remain" class="cards__text"></p>
+		</div>
+
+		<div id="controls" class="controls">
+			<button id="start" class="start controls__btn">Start Game</button>
+			<button class="lower state controls__btn">Lower</button>
+			<button class="higher state controls__btn">Higher</button>
+			<button id="restart" class="start controls__btn">New Game</button>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
